@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- FontAwesome CSS for icons -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Unit 16 Homework - HTML and CSS</title>
+</head>
+
+<body>
+  <div class="container clearfix">
+    <header>
+      <img src="Yasi.jpg" alt="avatar">
+
+      <!-- We use <span> within other elements to target text we want to manipulate -->
+      <!-- Note how this text is all uppercase, take a a look at the CSS to see how it's done -->
+
+      <h1>Hi,
+        <br>my name is
+        <span>Yasamin!</span>
+      </h1>
+    </header>
+
+    <!-- This <div> holds the left side content -->
+
+    <div id="leftContent">
+
+      <!-- Each content section is a <section> -->
+      <section>
+
+        <!-- Note the // added in front of each <h2>, take a a look at the CSS to see how it's done -->
+
+        <h2>About Me</h2>
+        <p>My name is Yasamin and I am a super awesome UX/UI designer.</p>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <ul id="educationList">
+
+          <!-- We use the clearfix hack to stop all our floats from causing chaos! -->
+
+          <li class="clearfix">
+            <div class="educationLeft">
+              <p class="year">2018</p>
+            </div>
+            <div class="educationRight">
+              <p>
+                <span class="school"> UCI Division of Continuing Education - Certificate</span>
+                <br>
+                <span>UX/UI Design</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Experience</h2>
+        <ul id="experienceList">
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="UCI Devision of Continuing Education">Thoughtbot</span>
+                <br>
+                <span class="year">2017 - 2018</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">UX Designer</span>
+                <br>
+                <span class="description"> Creating amazing UX/UI experiences for clients around the world.</span>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="where">Axon innovation</span>
+                <br>
+                <span class="year">2015 - 2017</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">Designer</span>
+                <br>
+                <span class="description">Designing company website .</span>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="where">Whole Foods</span>
+                <br>
+                <span class="year">2013 - 2015</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">Cashier</span>
+                <br>
+                <span class="description">Rang up customers.</span>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="where">Starbucks</span>
+                <br>
+                <span class="year">2010 - 2013</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">Barista</span>
+                <br>
+                <span class="description">Made some awesome lattes.</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- This <div> holds the right side content -->
+
+    <div id="rightContent">
+      <section>
+        <h2>Contact</h2>
+        <ul id="contactList">
+
+          <!-- Checkout those awesome icons from FontAwesome -->
+
+          <li>
+            <a href="tel:555-555-5555">
+              <i class="fas fa-phone"></i>
+              <span class="contactLink">555-555-5555</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:superjen@zmail.com">
+              <i class="far fa-envelope"></i>
+              <span class="contactLink">Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+              <span class="contactLink">Twitter</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul id="skillsList">
+          <li>Prototyping</li>
+          <li>Training</li>
+          <li>Sketching</li>
+          <li>UX/UI</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Hobbies</h2>
+        <ul id="hobbiesList">
+          <li>Drawing</li>
+          <li>Organizing</li>
+          <li>Craft Beer</li>
+          <li>Dancing</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Fun Facts</h2>
+        <ul id="factsList">
+          <li>I play piano</li>
+          
+        </ul>
+      </section>
+    </div>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
